@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$conifer: #4d2670;
+a {
+  color: $conifer;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
