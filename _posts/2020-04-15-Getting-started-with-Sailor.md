@@ -7,9 +7,11 @@ categories: Sailor Tutorials
 tags: Sailor Tutorials SecureAPI
 ---
 
-Download sailor to run your tests
+In this post we will learn how to run security checks for you website using sailor & SecureAPI.
 
-Once you have it download, verify if it's installed correctly by running 
+
+Our first step on security journey will be downloading sailor, which is command line tool, provided by SecureAPI to run security checks against your website backend API.
+Once you have it downloaded, verify if it's installed correctly by running 
 `sailor version`
 
 You should see similar output:
@@ -31,7 +33,7 @@ Available Commands:
   config      Print the loaded config
   feedback    Asks you 5 simple questions and send your feedback to us.
   help        Help about any command
-  run         Runs your secureapi test session!
+  run         Runs security test suite!
   version     Print the version number
 
 Flags:
