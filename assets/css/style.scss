@@ -4,7 +4,10 @@
 @import "{{ site.theme }}";
 
 $conifer: #4d2670;
+$cod-grey: #1e1e2e;
+$body-background: $cod-grey !default;
+$header: $conifer !default;
 a {
-  color: $conifer;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #9f4ad2;
+  text-shadow: 0 0 5px rgb(255, 252, 251);
 }
