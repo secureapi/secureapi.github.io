@@ -9,5 +9,12 @@ $body-background: $cod-grey !default;
 $header: $conifer !default;
 a {
   color: #9f4ad2;
-  text-shadow: 0 0 5px rgb(255, 252, 251);
+}
+
+header h1 {
+  color: $conifer; //$header;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header;
 }
