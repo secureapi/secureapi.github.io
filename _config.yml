@@ -33,7 +33,7 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
-logo: "assets/img/logo.svg"
+logo: "assets/img/logo240.png"
 show_downloads: false
 
 # Exclude from processing.
