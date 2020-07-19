@@ -146,7 +146,7 @@ Learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Op
 ```
  
 # TL;DR
-  - sailor v0.1.0 introduces two new commands: `sailor init-config` and `sailor-explain <TEST-CODE>`
+  - sailor v0.1.0 introduces two new commands: `sailor init-config` and `sailor explain <TEST-CODE>`
   - `sailor init-config` generates `.secureapi.yml` config template
   - `sailor explain SEC0004` prints description of security issue with solution and resources to learn more
   - From now on, `sailor run` will print security issues descriptions and solution to console, to speed up feedback loop
