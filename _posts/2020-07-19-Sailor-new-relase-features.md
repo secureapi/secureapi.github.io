@@ -82,9 +82,8 @@ It means that you no longer need to open our web app to learn how to solve secur
 
 Check it out:
 ```bash
-➜  sailor git:(master) ✗ ./bin/sailor run --config=k3s-local.yaml
-INFO[0000] Authenticated for admin                      
-INFO[0000] Nats url: nats://otterly-secure:46aa9a8bbb3c474302bb@localhost:4222 
+➜  sailor run
+INFO[0000] Authenticated for hidalgopl                       
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0008 : result: passed 
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0001 : result: failed 
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0009 : result: failed 
@@ -94,7 +93,7 @@ INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0007 : result: failed
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0003 : result: failed 
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0002 : result: failed 
 INFO[0000] [bsa5nfl5ictvmai1178g] -> SEC0006 : result: passed 
-INFO[0000] all tasks executed successfully. Link to your test suite: http://localhost:3000?suite-id=bsa5nfl5ictvmai1178g 
+INFO[0000] all tasks executed successfully. Link to your test suite: https://secureapi.dev/tests?suite-id=bsa5nfl5ictvmai1178g 
 ---------------------------------------------------------------------------------------------
 SEC0001: X-Content-Type-Options: no-sniff
 The server should send an X-Content-Type-Options: nosniff 
