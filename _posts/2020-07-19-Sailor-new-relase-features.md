@@ -30,7 +30,7 @@ INFO[0004] all tasks executed successfully. Link to your test suite: https://sta
 
 To learn what was actually wrong, you needed to open the link in browser and read though test suite summary and follow up to the Solution tab.
 
- # Motivation behind new features
+# Motivation behind new features
 
 While this flow was OK, I was mainly worried about two moments: first is creating `.securapi.yml` config by hand. It's error prone, as you need to avoid any typos in config keys etc.
 By following principles that we have in SecureAPI, everything boring and repetitive should be automated.
@@ -145,7 +145,7 @@ Learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Op
 
 ```
  
- # TL;DR
+# TL;DR
   - sailor v0.1.0 introduces two new commands: `sailor init-config` and `sailor-explain <TEST-CODE>`
   - `sailor init-config` generates `.secureapi.yml` config template
   - `sailor explain SEC0004` prints description of security issue with solution and resources to learn more
